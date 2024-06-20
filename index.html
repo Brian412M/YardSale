@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/icon" href="Images/logo.png">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>AUTOMOTO</title>
+
+    <!--Font Awesome
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Boostrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+
+        <section id="topNav">
+            <img src="Images/logo.png">
+
+            <span id="linksControl">
+              <div id="links">
+                <a href="#">Toyota</a>
+                <a href="#">Nissan</a>
+                <a href="#">Mazda</a>
+                <a href="#">BMW</a>
+                <a href="#">Mercedes</a>
+                <a href="#">VW</a>
+                <a href="#">Volvo</a>
+                <a href="#">Subaru</a>
+                <a href="#">Lexus</a>
+            
+              </div>
+            
+            </span>
+        </section>
+        
+        <h4>Automoto Ventures <i class="bi bi-car-front-fill"></i>
+            <span></span>
+        </h4>
+        
+    </header>
+
+    <section id="sectionBorder"> <h2>Find and Buy your Dream Motii!!</h2></section>
+
+    <section id="paraIntro">
+        <section id="intro">
+
+           
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/LandingPage/Mazda.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/LandingPage/Subaru.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/LandingPage/Volvo.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+
+                <div id="inputControl">
+                    <h2>Find and Buy you Dream Motii!!</h2>
+                    <input id="search" placeholder="Search Vehicle by Model">
+                </div>
+                
+              </div>
+             
+
+        </section>
+
+
+
+    </section>
+
+    <section id="sectionBorder"></section>
+
+
+    <!-----------------------Vehicles Display Container---------------------------->
+    <section id="vehicleContainer">
+
+            <!---------------------------Cards Template 1---------------------------------------------------->
+            <section class='card' data-id='1' data-model='Landrover Defender' data-year='2013'>
+              <img src='Images/VehiclePics/Landrover/Landrover Defender 2013 Puma/puma1.jpeg' id='card-banner'>
+            
+              <!--Vehicle Category-->
+              <div id='category'>
+                <i class="categoryTab">Offroad</i>
+
+                
+              </div>
+            
+              <section id='cardMid'>
+              
+             
+                        <h5 id='model' style="width: 80%;">
+                          <span style="width: 8px;">2013 Landrover Defender</span>  
+                        </h5>
+                      
+
+                        <!--Vehicle YOM-->
+                        
+                          <span id="yom">YOM:</span> <span>2013</span>
+                       
+
+                        <h5 id='price'><i>kes <u>2,500,000</u></i></h5>
+                      
+                
+            
+                <!--Vehicle Specs-->
+                <div id='specs'>
+                  <details>
+                  
+                  <summary> 
+                    Alloy Rims, Bose Speakers, 
+                    </summary>
+                    
+                    Landrover Puma 2.2 litre
+                    61000 KM.
+                    Y.O.M 2013
+                    6 speed Manual gear box
+                    Seven seater
+                    Smoked Led Indicator lights
+                    LED headlights with day running lights
+                    Differential lock
+                    @3.65m
+                    Viewing Langata
+                  </details>
+                </div>
+              </section>
+            
+            <!--About Uploader-->
+              <div id='user'>
+                <table>
+                  <tr>
+                    <td>
+                      <img src='Images/logo.png' id='authorIcon'>
+                    </td>
+                    <td>
+                      <span>
+                        <b>AutoMoto</b>
+                      </span>
+                      <br>
+                      <span><i id='time'>2h ago</i></span>
+                      </td>
+                      
+                      <td>
+                        
+                        <div id='contacts'>
+                        <a href="https://www.instagram.com/automoto_ventures?igsh=MzRlODBiNWFlZA=="><i style="color:#fbad50;" class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/eE8R443GFekbFnsq/?mibextid=qi2Omg"><i class="bi bi-facebook"></i></a>
+                        <a href="https://wa.me/message/2PCV3N2ZHPUAB1"><i style="color: #25D366;" class="bi bi-whatsapp"></i></a> 
+                      </div>
+                      </td>
+  
+                  </tr>
+                </table>
+              </div>
+
+              <section id="toSeller">
+                <button class="text-bg-dark" onClick="inquire()">Inquire</button>
+              </section>
+
+            </section>
+
+
+
+
+
+            <!---------------------------Cards Template 2---------------------------------------------------->
+            <section class='card' data-id='2' data-model='BMW 730Li' data-year='2012'>
+              <img src='Images/VehiclePics/BMW/BMW 2012 730Li/BMW730Li.jpeg' id='card-banner'>
+            
+              <!--Vehicle Category-->
+              <div id='category'>
+                <i class="categoryTab">Street</i>
+
+                
+              </div>
+            
+              <section id='cardMid'>
+              
+             
+                        <h5 id='model' style="width: 80%;">
+                          <span style="width: 8px;">BMW 730Li</span>  
+                        </h5>
+                      
+
+                        <!--Vehicle YOM-->
+                        
+                          <span id="yom">YOM:</span> <span>2013</span>
+                       
+
+                        <h5 id='price'><i>kes <u>2,400,000</u></i></h5>
+                      
+                
+            
+                <!--Vehicle Specs-->
+                <div id='specs'>
+                  <details>
+                  
+                  <summary> 
+                    3ltr petrol, 80k mileage, 
+                    </summary>
+                    Leather interior, 
+                    Sunroof, 
+                    Asian owned
+
+                  </details>
+                </div>
+              </section>
+            
+            <!--About Uploader-->
+              <div id='user'>
+                <table>
+                  <tr>
+                    <td>
+                      <img src='Images/logo.png' id='authorIcon'>
+                    </td>
+                    <td>
+                      <span>
+                        <b>AutoMoto</b>
+                      </span>
+                      <br>
+                      <span><i id='time'>2h ago</i></span>
+                      </td>
+                      
+                      <td>
+                        
+                        <div id='contacts'>
+                        <a href="https://www.instagram.com/automoto_ventures?igsh=MzRlODBiNWFlZA=="><i style="color:#fbad50;" class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/eE8R443GFekbFnsq/?mibextid=qi2Omg"><i class="bi bi-facebook"></i></a>
+                        <a href="https://wa.me/message/2PCV3N2ZHPUAB1"><i style="color: #25D366;" class="bi bi-whatsapp"></i></a> 
+                      </div>
+                      </td>
+  
+                  </tr>
+                </table>
+              </div>
+
+              <section id="toSeller">
+                <button class="text-bg-dark" onClick="inquire()">Inquire</button>
+              </section>
+
+            </section>
+
+
+
+
+            <!---------------------------Cards Template 2---------------------------------------------------->
+            <section class='card' data-id='3' data-model='Toyota MarkX' data-year='2007'>
+              <img src='Images/VehiclePics/Toyota/ToyotaMarkX/MarkX 2007 Gey/MarkX.jpeg' id='card-banner'>
+            
+              <!--Vehicle Category-->
+              <div id='category'>
+                <i class="categoryTab">Street</i>
+
+                
+              </div>
+            
+              <section id='cardMid'>
+              
+             
+                        <h5 id='model' style="width: 80%;">
+                          <span style="width: 8px;">2007 Toyota MarkX</span>  
+                        </h5>
+                      
+
+                        <!--Vehicle YOM-->
+                        
+                          <span id="yom">YOM:</span> <span>2007</span>
+                       
+
+                        <h5 id='price'><i>kes <u>720,000</u></i></h5>
+                      
+                
+            
+                <!--Vehicle Specs-->
+                <div id='specs'>
+                  <details>
+                  
+                  <summary> 
+                    Very Clean,
+                    Mechanically, 
+                    </summary>
+                    perfect,
+                    2500CC V6
+                    Cool Sound System
+
+
+                  </details>
+                </div>
+              </section>
+            
+            <!--About Uploader-->
+              <div id='user'>
+                <table>
+                  <tr>
+                    <td>
+                      <img src='Images/logo.png' id='authorIcon'>
+                    </td>
+                    <td>
+                      <span>
+                        <b>AutoMoto</b>
+                      </span>
+                      <br>
+                      <span><i id='time'>2h ago</i></span>
+                      </td>
+                      
+                      <td>
+                        
+                        <div id='contacts'>
+                        <a href="https://www.instagram.com/automoto_ventures?igsh=MzRlODBiNWFlZA=="><i style="color:#fbad50;" class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/eE8R443GFekbFnsq/?mibextid=qi2Omg"><i class="bi bi-facebook"></i></a>
+                        <a href="https://wa.me/message/2PCV3N2ZHPUAB1"><i style="color: #25D366;" class="bi bi-whatsapp"></i></a> 
+                      </div>
+                      </td>
+  
+                  </tr>
+                </table>
+              </div>
+
+              <section id="toSeller">
+                <button class="text-bg-dark" onClick="inquire()">Inquire</button>
+              </section>
+
+            </section>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------Vehicle Container End-------------------------------------->
+    
+    </section>
+
+
+    <footer>
+
+      <div id="footerItems">
+      <img src="Images/logo.png">
+      <p>&copy;<i id="copyYear">
+        <script>
+          let currentYear = document.getElementById('copyYear');
+
+          let dateStore = new Date();
+          let thisYear = dateStore.getFullYear();
+
+          currentYear.textContent=thisYear;
+        </script>
+      </i></p>
+
+      <!--My Info-->
+      <p>DevBy-_-</p>
+      <a href="#"><i style="color: #25D366" class="bi bi-whatsapp"></i></a>
+    </div>
+      
+    
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
