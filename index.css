@@ -3,6 +3,9 @@ body{
     z-index: 1;
 }
 
+img{
+image-rendering:auto;
+}
 body::-webkit-scrollbar{
   width: 10px;
 }
